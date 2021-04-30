@@ -4,8 +4,7 @@ cret is simple version manager for [Deno](https://github.com/denoland/deno)
 
 NOTE:
 
-  This doesn't test for windows and linux.
-
+  This doesn't test for windows and linux.  
   I'm glad if you could look into that for me.
 
 ### Install
@@ -22,15 +21,13 @@ wget https://github.com/lion-man44/cret/releases/download/v1.0.0/cret-x86_64-unk
 
 ### Usage
 
-This package is very simple.
-
+This package is very simple.  
 You need to remember 5 command.
 
 `install`, `uninstall`, `use`, `ls`, `ls-remote`
 
 #### install
-Most basic command.
-
+Most basic command.  
 Enter you the version you want.
 ```bash
 cret install
@@ -46,8 +43,7 @@ cret uninstall <version>
 ```
 
 #### use
-You can't use the deno version just installed.
-
+You can't use the deno version just installed.  
 So, you need to select the version.
 ```bash
 cret use <version>
