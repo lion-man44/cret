@@ -1,5 +1,4 @@
 ## Cret
----
 
 cret is simple version manager for [Deno](https://github.com/denoland/deno)
 
