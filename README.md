@@ -11,12 +11,13 @@ NOTE:
 
 ```bash
 # For mac
-wget https://github.com/lion-man44/cret/releases/download/v1.0.0/cret-x86_64-apple-darwin.zip -P /tmp/ && unzip /tmp/cret-x86_64-apple-darwin.zip && mv /tmp/cret /usr/local/bin/cret && rm /tmp/cret-x86_64-apple-darwin.zip
-# or
-wget https://github.com/lion-man44/cret/releases/download/v1.0.0/cret-aarch64-apple-darwin.zip -P /tmp/ && unzip /tmp/cret-aarch64-apple-darwin.zip && mv /tmp/cret /usr/local/bin/cret && rm /tmp/cret-aarch64-apple-darwin.zip
+brew install lion-man44/cret/cret
 
 # For linux
 wget https://github.com/lion-man44/cret/releases/download/v1.0.0/cret-x86_64-unknown-linux-gnu.zip -P /tmp/ && unzip /tmp/cret-x86_64-unknown-linux-gnu.zip && mv /tmp/cret /usr/local/bin/cret && rm /tmp/cret-x86_64-unknown-linux-gnu.zip
+# or when you are using linuxbrew
+brew install lion-man44/cret/cret
+
 ```
 
 ### Usage
